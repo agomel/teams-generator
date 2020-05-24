@@ -1,8 +1,8 @@
 # Teams generator
 
-This project was designed to generate even teams in level when putting together a game.
+This project was created to generate the best teams to play a game.
 
 ## Usage
 
 * Configure the player file with their levels
-* Run: ``` $ node index.js ```
+* Run: ```$ node index.js ```
