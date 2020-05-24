@@ -1,4 +1,4 @@
-# teams-generator
+# Teams generator
 
 This project was designed to generate even teams in level when putting together a game.
 
