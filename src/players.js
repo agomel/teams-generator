@@ -17,10 +17,12 @@ const NACHO = new Player("Nacho", 6.86)
 const SASLA = new Player("Sasla", 6.55)
 const KROCH = new Player("Kroch", 6.39)
 const SEAN = new Player("Sean", 5.86)
-const LIPI = new Player("Lipi", 2.45)
+const LIPI = new Player("Lipi", 3)
 const HER = new Player("Her", 4)
 const TOBA = new Player("Toba", 1.7)
 const MAGO = new Player("Mago", 2.2)
+const SUVA = new Player("Suva", 1.7)
+const PITBULL = new Player("Pitbull", 2)
 
 const PLAYERS = [
 	GONZA,
@@ -36,7 +38,9 @@ const PLAYERS = [
 	// LIPI,
 	// HER,
 	// TOBA,
-	// MAGO
+	// MAGO,
+	// SUVA,
+	// PITBULL
 ];
 
 module.exports = PLAYERS;
