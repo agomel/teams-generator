@@ -1,4 +1,4 @@
-const PLAYERS = require('./players')
+const PLAYERS = require('./players2')
 const { generateTeams, generateMatches, printMatch } = require('./teamsFunctions')
 
 /*Teams generator*/
@@ -17,7 +17,8 @@ function generarEquipos(jugadores){
 	const partidasPosibles = generateMatches(equipos1, equipos2)
 	//Mostrar partidas
 	console.log(`La cantidad de partidas posibles es ${partidasPosibles.length}`)
-	partidasPosibles.slice(0,5).forEach((match,index) => {
+
+	partidasPosibles.slice(0,20).forEach((match,index) => {
 		console.log("--------------")
 		console.log("--------------")
 		console.log("--------------")
@@ -28,4 +29,7 @@ function generarEquipos(jugadores){
 
 
 //Run
+const currentTime = new Date();
 generarEquipos(PLAYERS);
+const duration = (new Date() - currentTime) / ( 1000 ) //in seconds
+console.log(`EL tiempo que se demoro es ${duration} segundos`)
